@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="tet">
+                        <strong>
+                            Dear Rakshu🐼
+                        </strong>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Chlm miss u so much🥹 enaku una pakkanum pole iruku🥺🥺🥺 love you so so much🫂🫂🫂
+                             missing those chim chim🥺, Pui pui during bike ride🥺🥺 sometimes office poitu varumbodhu 
+                             bag mela sanjitu irukum apo nee pinnadi hug panniruka feel varum nee pakathula illanu total 
+                             ahh break agiduven , enaku unmela naraiya kovam iruku , naraiya misunderstanding iruku , ena
+                              naraiya hurt pannita neeyu but adhukaga unmela iruka love koranjiruchinu mattum 
+                              nenachiradhe🥺🥺🥺 my love for u never fade😘😘😘 adhemari till my last breath na namba 
+                              love kaga edhacham oru effort pottute thaan irupen😁😘😘 Nethiki HTML and CSS tuitorialEllam paathu recall pannen ipo epdi iruku indha virtual
+                               love letter🫣🫣 once again love u so much chlm😘😘😘😘😘 marakama pepelo
+                               game ada va inaki😘😘😘 inaki leave pottiruken..
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
